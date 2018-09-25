@@ -1,5 +1,5 @@
 # spark-hive-recursion
-This project is intended to create a recursive data set, taking in a hive select query with child and parent values. 
+This project is intended to create a recursive data set, taking in a hive select query with child and parent values, writing a flattened data set with 4 columns: child, parent, level, dp_proc_time, in the format specified.
 
 1) Build the package with sbt-clean-assembly
 2) Execute with spark package with spark-submit
